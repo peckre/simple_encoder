@@ -19,7 +19,15 @@ A simple, cross-platform GUI tool for safely transferring multiline scripts into
 
 ## Getting Started
 
-### Run the Python Script
+
+### Option A: Run the release executable directly 
+
+1. Download the binary in the 'Releases section'
+2. Run! All Python pre-requisites are compiled with pyinstaller
+
+---
+
+### Option B: Run the Python Script
 
 1. Make sure you have Python 3.6+
 2. Launch the GUI:
@@ -29,17 +37,6 @@ A simple, cross-platform GUI tool for safely transferring multiline scripts into
 
 ---
 
-### Build Standalone `.exe`
-
-To build a single Windows executable (no Python required to run):
-
-```bash
-pyinstaller --onefile --noconsole encode.py
-```
-
-The `.exe` will be in the `dist/` directory.
-
----
 
 ## How to Use
 
